@@ -9,10 +9,10 @@ use App\Models\AdminUser;
 
 class AdminLoginController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('admin');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('admin');
+    // }
 
     public function adminShow()
     {
